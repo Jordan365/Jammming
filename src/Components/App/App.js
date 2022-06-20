@@ -82,7 +82,11 @@ class App extends React.Component {
 
     if (this.state.previewAudio !== null) {
       this.state.previewAudio.pause();
-      this.state.previewAudio.currentTime = 0;
+      let newAudio = this.state.previewAudio;
+      newAudio.currentTime = 0;
+      this.setState({
+        previewAudio: newAudio
+      })
       clearTimeout(this.timeOutID);
     }
 
