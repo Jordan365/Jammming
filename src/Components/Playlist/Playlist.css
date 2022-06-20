@@ -2,14 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
     width: 37%;
-    max-height: 950px;
-    padding: 2.27rem 1.16rem;
+    max-height: 800px;
+    padding: 1.5rem 1.16rem;
     background-color: rgba(1, 12, 63, 0.7);
     box-shadow: 0 4px 2px 2px #000000;
   }
   
+  .Playlist-select {
+    cursor: pointer;
+    width: 10rem;
+    padding: .5rem 0;
+    border-radius: 25px;
+    border-width: 0px;
+    margin: 1.27rem 0;
+    background-color: #6c41ec;
+    text-align: center;
+    font-size: .83rem;
+    color: #fff;
+    font-weight: 500;
+  }
+
   .Playlist input {
     width: 100%;
     border: 0;
