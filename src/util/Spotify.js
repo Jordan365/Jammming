@@ -1,7 +1,7 @@
 let userAccessToken;
 
 const CLIENT_ID = "d6df7b750d4444cb8161b4e06622b1d9";
-const REDIRECT_URI = "http://localhost:3000" //https:JTTestJamming.surge.sh";
+const REDIRECT_URI = "https://playlist-planner.netlify.app"//"http://localhost:3000" //https:JTTestJamming.surge.sh";
 
 const Spotify = {
     getAccessToken() {
